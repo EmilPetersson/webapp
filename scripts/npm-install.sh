@@ -9,8 +9,6 @@ if [ -d "/node_modules/" ]
     rm -rf node_modules/
 fi
 
-rm -rf directoryname
-
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 
 . ~/.nvm/nvm.sh
