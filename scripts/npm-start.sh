@@ -1,8 +1,8 @@
 #!/bin/bash'
 
-echo "npm-start initiated..."
-source /home/ec2-user/.bash_profile
+#echo "npm-start initiated..."
+#source /home/ec2-user/.bash_profile
 
-cd /home/ec2-user/
+#cd /home/ec2-user/
 
-npm start
+#npm start
