@@ -4,6 +4,13 @@ echo "npm-install initiated..."
 
 cd /home/ec2-user/
 
+if [ -d "/node_modules/" ]
+  then
+    rm -rf node_modules/
+fi
+
+rm -rf directoryname
+
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 
 . ~/.nvm/nvm.sh
