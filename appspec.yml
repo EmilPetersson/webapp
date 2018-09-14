@@ -13,6 +13,6 @@ hooks:
       runas: root
       timeout: 300
   ApplicationStop:
-    - location: sudo chmod +x scripts/npm-stop.sh
+    - location: scripts/npm-stop.sh
       runas: root
       timeout: 300
